@@ -3282,7 +3282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.i-pex.com/sites/default/files/downloads/pdf/CATALOG_CABLINE-SS_E.pdf"
 			(at 35.56 62.23 0)
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20 POS Right Angle SMD 0.4 mm pitch vertical mating type micro-coaxial connector with friction lock CABLINE SS Receptacle"
 			(at 35.56 62.23 0)
 			(effects
 				(font
@@ -3300,7 +3300,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "I-PEX"
+		(property "Manufacturer Product Number" "20374-R20E-31"
 			(at 35.56 62.23 0)
 			(effects
 				(font
@@ -3310,7 +3310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "20 POS Right Angle SMD 0.4 mm pitch vertical mating type micro-coaxial connector with friction lock CABLINE SS Receptacle"
+		(property "Manufacturer" "I-PEX"
 			(at 35.56 62.23 0)
 			(effects
 				(font
@@ -3320,93 +3320,21 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "DigiKey Part" "5378-20374-R20E-31TR-ND"
 			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Supplier Link" "https://www.digikey.com/en/products/detail/i-pex/20374-R20E-31/24394701"
 			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/20374-R20E-31/I-PEX/view-part/?ref=eda"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendation"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "24"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/20374-R20E-31/I-PEX/view-part/?ref=snap"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "20374-R20E-31"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "I-PEX"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -3605,8 +3533,26 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" "2N7002KDW"
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "LCSC Part" "C2919800"
 			(at 151.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://lcsc.com/product-detail/MOSFETs_CBI-2N7002KDW_C2919800.html?s_z=n_2N7002KDW"
+			(at 151.13 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,6 +4061,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 170.18 86.36 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "560f6409-8018-4b1e-aa5e-e3594b8c499f")
+		(property "Reference" "R1"
+			(at 170.18 84.582 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 170.18 86.36 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161045_YAGEO-RC0201FR-075K1L_C274341.pdf"
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RC0201FR-075K1L"
+			(at 170.18 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C274341"
+			(at 170.18 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-075K1L_C274341.html"
+			(at 170.18 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09af4d72-5eaa-40d0-8f0b-82a1bfc6ff33")
+		)
+		(pin "2"
+			(uuid "fab66622-cdb9-45b7-974c-678e9e95d22f")
+		)
+		(instances
+			(project "hdztg"
+				(path "/5fa3be86-0836-40c5-8497-58cbc35ea59a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 58.42 41.91 90)
 		(unit 1)
@@ -4244,74 +4285,6 @@
 			(project "hdztg"
 				(path "/5fa3be86-0836-40c5-8497-58cbc35ea59a"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 170.18 86.36 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ef97bf9-8cbe-4bed-a811-395fa5032a6e")
-		(property "Reference" "R1"
-			(at 170.18 84.582 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "5k1"
-			(at 170.18 86.36 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8f9b662-8c13-4128-b120-99faed3703e2")
-		)
-		(pin "2"
-			(uuid "12f6edc2-5dcb-457a-935a-1fbf993c6145")
-		)
-		(instances
-			(project "hdztg"
-				(path "/5fa3be86-0836-40c5-8497-58cbc35ea59a"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4896,7 +4869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161045_YAGEO-RC0201FR-075K1L_C274341.pdf"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -4907,6 +4880,33 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RC0201FR-075K1L"
+			(at 132.08 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C274341"
+			(at 132.08 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-075K1L_C274341.html"
+			(at 132.08 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +5101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411121000_XUNPU-FPC-05FB-24PH20_C2856831.pdf"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -5110,7 +5110,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hinged Lid -25℃~+85℃ 24P Double-Sided Contacts, Top and Bottom Entry Surface Mount, Right Angle 0.5mm SMD,P=0.5mm,Surface Mount,Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "FPC-05FB-24PH20"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -5121,6 +5130,15 @@
 		)
 		(property "LCSC Part" "C2856831"
 			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Link" "https://lcsc.com/product-detail/FFC-FPC-Flat-Flexible-Connector-Assemblies_XUNPU-FPC-05FB-24PH20_C2856831.html?s_z=n_FPC-05FB-24PH20"
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
