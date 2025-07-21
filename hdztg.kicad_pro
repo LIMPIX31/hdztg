@@ -60,7 +60,7 @@
         {
           "gap": 0.1016,
           "via_gap": 0.3,
-          "width": 0.1725
+          "width": 0.1161
         }
       ],
       "drc_exclusions": [],
@@ -141,7 +141,7 @@
         "min_text_height": 0.15,
         "min_text_thickness": 0.05,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1232,
+        "min_track_width": 0.1016,
         "min_via_annular_width": 0.0,
         "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
@@ -193,6 +193,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1161,
         0.2
       ],
       "tuning_pattern_settings": {
@@ -499,12 +500,12 @@
       {
         "clearance": 0.1016,
         "diff_pair_gap": 0.1016,
-        "diff_pair_width": 0.1725,
+        "diff_pair_width": 0.1161,
         "name": "MIPI",
         "pcb_color": "rgb(141, 255, 174)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1425,
+        "track_width": 0.1161,
         "via_diameter": 0.35,
         "via_drill": 0.2
       }
