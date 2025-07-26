@@ -3961,7 +3961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 172.72 25.4 0)
 			(effects
 				(font
@@ -3970,7 +3970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161045_YAGEO-RC0201FR-075K1L_C274341.pdf"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221127_UNI-ROYAL-0402WGF5101TCE_C25905.pdf"
 			(at 172.72 25.4 0)
 			(effects
 				(font
@@ -3979,7 +3979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 172.72 25.4 0)
 			(effects
 				(font
@@ -3988,7 +3988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "RC0201FR-075K1L"
+		(property "Manufacturer Part" "0402WGF5101TCE"
 			(at 172.72 25.4 90)
 			(effects
 				(font
@@ -3997,7 +3997,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C274341"
+		(property "LCSC" "C25905"
 			(at 172.72 25.4 90)
 			(effects
 				(font
@@ -4006,7 +4006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-075K1L_C274341.html"
+		(property "Distributor Link" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-0402WGF5101TCE_C25905.html"
 			(at 172.72 25.4 90)
 			(effects
 				(font
@@ -4713,6 +4713,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1c96aa3-e6c1-4dde-87d9-32f52519ec3b")
+		(property "Reference" "R2"
+			(at 134.62 32.258 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 134.62 30.48 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221127_UNI-ROYAL-0402WGF5101TCE_C25905.pdf"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistor 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF5101TCE"
+			(at 134.62 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 134.62 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-0402WGF5101TCE_C25905.html"
+			(at 134.62 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f587989-b386-4ded-a0cd-dc5c3a1596aa")
+		)
+		(pin "2"
+			(uuid "e0f6bad3-f37d-47ab-bc99-ccb0ff0e52fa")
+		)
+		(instances
+			(project "hdztg"
+				(path "/5fa3be86-0836-40c5-8497-58cbc35ea59a"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 97.79 0)
 		(unit 1)
@@ -4775,101 +4869,6 @@
 			(project "hdztg"
 				(path "/5fa3be86-0836-40c5-8497-58cbc35ea59a"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 134.62 30.48 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdf9bd5e-2a9e-4ade-af2e-5a8bd6318dcb")
-		(property "Reference" "R2"
-			(at 134.62 32.258 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "5k1"
-			(at 134.62 30.48 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 134.62 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2506161045_YAGEO-RC0201FR-075K1L_C274341.pdf"
-			(at 134.62 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 134.62 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "RC0201FR-075K1L"
-			(at 134.62 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C274341"
-			(at 134.62 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-075K1L_C274341.html"
-			(at 134.62 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82d97994-4520-4130-845d-71fd6ce44113")
-		)
-		(pin "2"
-			(uuid "b5f2d509-32f5-425e-9cc2-d70e29c6571e")
-		)
-		(instances
-			(project "hdztg"
-				(path "/5fa3be86-0836-40c5-8497-58cbc35ea59a"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5205,7 +5204,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 45.72 87.63 0)
 			(effects
 				(font
@@ -5223,7 +5222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "16V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 45.72 87.63 0)
 			(effects
 				(font
@@ -5232,7 +5231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CL03A105MO3NRNH"
+		(property "Manufacturer Part" "CL05A105KO5NNNC"
 			(at 45.72 87.63 0)
 			(effects
 				(font
@@ -5241,7 +5240,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307385"
+		(property "LCSC" "C29266"
 			(at 45.72 87.63 0)
 			(effects
 				(font
@@ -5250,7 +5249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL03A105MO3NRNH_C307385.html"
+		(property "Distributor Link" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05A105KO5NNNC_C29266.html?s_z=n_C29266"
 			(at 45.72 87.63 0)
 			(effects
 				(font

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,9 +58,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.1016,
+          "gap": 0.12,
           "via_gap": 0.3,
-          "width": 0.1161
+          "width": 0.1425
         }
       ],
       "drc_exclusions": [],
@@ -140,10 +140,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.15,
         "min_text_thickness": 0.05,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1016,
-        "min_via_annular_width": 0.0,
-        "min_via_diameter": 0.35,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -194,7 +194,8 @@
       "track_widths": [
         0.0,
         0.1161,
-        0.2
+        0.2,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -230,6 +231,10 @@
         {
           "diameter": 0.35,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -481,7 +486,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1016,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -498,16 +503,16 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.1016,
-        "diff_pair_gap": 0.1016,
-        "diff_pair_width": 0.1161,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.1425,
         "name": "MIPI",
         "pcb_color": "rgb(141, 255, 174)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1161,
-        "via_diameter": 0.35,
-        "via_drill": 0.2
+        "track_width": 0.1425,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       }
     ],
     "meta": {
